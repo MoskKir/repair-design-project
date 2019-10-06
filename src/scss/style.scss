@@ -1,0 +1,91 @@
+$bg-color: #131313;
+$desktop-width: 1438px;
+$alt-text-color: #E3B873;
+$text-color: #FFFFFF;
+
+@font-face {
+    font-family: 'font363c763618808869720c6ca7b4059566';
+        
+        src:    url('https://nomail.com.ua/files/eot/363c763618808869720c6ca7b4059566.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/363c763618808869720c6ca7b4059566.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/363c763618808869720c6ca7b4059566.woff2') format('woff2');
+}
+    
+@font-face { font-family: 'FuturaBookC';  src: local('FuturaBookC'), url('https://nomail.com.ua/files/woff/363c763618808869720c6ca7b4059566.woff') format('woff'); }
+
+@font-face {
+    font-family: 'fontfa7892c650d8237d04043b1cf3cdc49f';
+        
+        src:    url('https://nomail.com.ua/files/eot/fa7892c650d8237d04043b1cf3cdc49f.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/fa7892c650d8237d04043b1cf3cdc49f.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/fa7892c650d8237d04043b1cf3cdc49f.woff2') format('woff2');
+}
+
+@font-face { font-family: 'FuturaDemiC';  src: local('FuturaDemiC'), url('https://nomail.com.ua/files/woff/fa7892c650d8237d04043b1cf3cdc49f.woff') format('woff'); }
+
+body {
+    background-color: $bg-color;
+}
+
+main {
+    width: $desktop-width;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    h1 {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: $alt-text-color;
+        padding: 20px 70px 0px;
+        font-family: 'FuturaBookC'; 
+    }
+}
+nav {
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        padding-left: 45px;
+        li {
+            list-style: none;
+            text-transform: uppercase;
+            color: $text-color; 
+            margin: 27px 0;
+            margin-right: 50px;
+            font-size: 14px;
+            font-family: 'FuturaBookC';
+            a {
+                color: $text-color;
+                text-decoration: none;
+                &:hover {
+                    color: $alt-text-color;
+                }
+            }             
+        }
+    }
+}
+.tel-num {
+    font-size: 14px;
+    margin: 27px;
+    a {
+        color: $alt-text-color;
+        font-family: 'FuturaDemiC';
+    }
+}
+.btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'FuturaDemiC';
+    background-color: $alt-text-color;
+    border-radius: 3px;
+    border: 1px solid #E3B873;
+    padding-left: 23px;
+    padding-right: 31px;
+    padding-top: 11px;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    margin-left: 9px;
+    cursor: pointer;
+}
