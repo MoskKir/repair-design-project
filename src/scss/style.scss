@@ -529,5 +529,152 @@ nav {
    .desing-project-items {
        display: flex;
        justify-content: center;
+       padding-top: 50px;
+       .desing-project-item {
+            margin-right: 13px;
+            margin-left: 17px;
+            margin-bottom: -250px;
+            .item-card-description {
+                position: relative;
+                top: -165px;
+                margin: 32px;
+                text-align: left;
+                background-color: #fff;
+                h4 {
+                    font-size: 18px;
+                    font-family: 'FuturaBookC';
+                    font-weight: bold;
+                    margin-left: 33px;
+                    padding-top: 23px;
+                    
+                    margin-bottom: 0;
+
+                }
+                ul {
+                    font-family: 'FuturaBookC';
+                    color: #959595;
+                    font-size: 15px;
+                    padding-left: 46px;
+                    margin-top: 0px;
+                    line-height: 2;
+                    margin-bottom: 0;
+                }
+                .btn {
+                    width: 55%;
+                    margin-left: 0;
+                    text-align: center;
+                    padding-bottom: 10px;
+                    font-size: 18px;
+                    position: relative;
+                    top: 20px;
+                    margin-top: 0;
+                }
+            }
+
+
+            
+       }
    }
+}
+.bg-color {
+    background-color: $bg-color;
+    height: 500px;
+    position: absolute;
+    top: 5926px;
+    width: 100%;
+    padding-bottom: 1110px;
+    z-index: -1;
+}
+.steps-to-the-goal {
+    display: flex;
+    color: $text-color;
+    .steps-description {
+        width: 33%;
+        padding-left: 100px;
+        h5 {
+            font-family: 'FuturaDemiC'; 
+            font-size: 15px;
+            text-transform: uppercase;
+            
+        }
+        h4 {
+            font-size: 28px;
+            color: $alt-text-color;
+            text-transform: uppercase;
+            width: 200px;
+            margin-top: 20px;
+            margin-bottom: 87px;
+            // font-family: 'Yeseva One';
+        }
+        h6 {
+            font-size: 16px;
+            color: $alt-text-color;
+            text-transform: uppercase;
+            width: 250px;
+            margin-top: 25px;
+            margin-bottom: 5px;
+        }
+        p {
+            width: 325px;
+            font-size: 15px;
+            font-family: 'FuturaBookC';
+            line-height: 1.9;
+            margin-top: 9px;
+        }
+        .completed-projects-paginator {
+            display: flex;
+            margin-top: 95px;
+            
+            .arrou-left {
+                margin-right: 26px;
+                cursor: pointer;
+            }
+            .doter {
+                margin: 0 7px;
+                cursor: pointer;
+            }
+            .arrou-right {
+                margin-left: 26px;
+                cursor: pointer;
+            }
+        }
+
+    }
+    .steps-box {
+        margin-top: 100px;
+        .steps-list {
+            display: grid;
+            grid-template-columns: 330px 330px 1fr;
+            .step {
+                font-size: 15px;
+                font-family: 'FuturaBookC';
+                color: #ffffff97;
+                width: 127px;
+
+            }
+            .active {
+                color: $text-color;
+            }
+        }
+        img {
+            margin-top: 30px;
+        }
+    }
+}
+.our-team-container {
+    text-align: center;
+    h3 {
+        color: $text-color;
+        text-transform: uppercase;
+        margin-top: 85px;
+    }
+    p {
+        color: $text-color;
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 15px;
+        line-height: 1.3;
+        font-size: 20px;
+        font-family: 'FuturaBookC';
+    }
 }
